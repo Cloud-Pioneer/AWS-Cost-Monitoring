@@ -10,4 +10,5 @@ The goal was to:
 - Identify waste and idle resources
 - Automate cost optimization safely
 
-The project follows real-world cloud engineering best practices and uses automation instead of manual intervention.
+The project follows real-world cloud engineering best practices and uses automation instead of manual intervention. 
+
