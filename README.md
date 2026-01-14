@@ -13,7 +13,7 @@ The goal was to:
 The project follows real-world cloud engineering best practices and uses automation instead of manual intervention. 
 
 ## Architecture Overview
-> *(High-level architecture diagram will be added here)*
+! [AWS Architecture Diagram] (images/cost architecture-diagram.png)*
 
 Core AWS services used:
 - AWS Lambda
