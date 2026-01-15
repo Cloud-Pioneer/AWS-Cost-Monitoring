@@ -1,0 +1,12 @@
+{
+  "Name": "EC2-Auto-Stop-Schedule",
+  "Description": "Triggers Phase 3 Lambda to automatically stop running EC2 instances for cost optimization",
+  "ScheduleExpression": "cron(0 20 * * ? *)",
+  "ScheduleExpressionTimezone": "Africa/Nairobi",
+  "State": "ENABLED",
+  "Target": {
+    "Arn": "arn:aws:lambda:REGION:ACCOUNT_ID:function:phase-3-auto-stop-lambda",
+    "RoleArn": "arn:aws:iam::ACCOUNT_ID:role/EventBridge-Lambda-Execution-Role",
+    "Input": "{}"
+  }
+}
