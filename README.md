@@ -12,8 +12,12 @@ The goal was to:
 
 The project follows real-world cloud engineering best practices and uses automation instead of manual intervention. 
 
-## Architecture Overview
-! [AWS Architecture Diagram] (images/cost architecture-diagram.png)*
+# Architecture Diagram
+
+The following diagram illustrates the end-to-end AWS cost monitoring, optimization, and automation workflow implemented in this project.
+
+![AWS Cost Optimization Architecture](docs/architecture/aws-cost-optimization-architecture.png)
+
 
 Core AWS services used:
 - AWS Lambda
