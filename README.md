@@ -12,7 +12,7 @@ The system was designed to:
 
 - Monitor cloud spending in near real time
 - Identify idle or unused resources that still generate charges
-- Safely automate cost-
+- Safely automate costs
 
 # Phase 1: Cost Tracking & Alerts
 
@@ -95,8 +95,5 @@ Automatically stop idle EC2 instances to reduce costs without manual interventio
 - AWS tagging is critical for managing environments
 - Event-driven architectures reduce manual work
 
-## Author
-- Samuel Muriuki   
-AWS Certified Cloud Practitioner
 
 
