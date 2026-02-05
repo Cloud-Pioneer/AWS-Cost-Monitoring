@@ -1,25 +1,18 @@
-# AWS-Cost-Monitoring
-Automated Cost-optimization using AWS Lambda and EventBridge. 
-# AWS Cloud Cost Monitoring, Optimization & Automation
-
 # Project Overview
-This project demonstrates a three-phase cloud cost management solution built on AWS.
 
-The goal was to:
-- Monitor cloud spending in real time
-- Identify waste and idle resources
-- Automate cost optimization safely
+Cloud bills can grow quickly without teams noticing.  
+Developers often forget to shut down test servers, unused storage continues to accumulate, and idle databases keep running in the background. Even when these resources are not being used, they still generate charges.
 
-The project follows real-world cloud engineering best practices and uses automation instead of manual intervention. 
+Many companies only discover this waste when the monthly cloud bill becomes unexpectedly high.
 
-Core AWS services used:
-- AWS Lambda
-- Amazon CloudWatch
-- Amazon EventBridge
-- Amazon EC2
-- Amazon SNS
-- Amazon S3
-- AWS IAM
+This project demonstrates a three-phase cloud cost management solution built on AWS.  
+The goal is to help organizations see where money is being spent, detect unnecessary costs, and automatically reduce waste.
+
+The system was designed to:
+
+- Monitor cloud spending in near real time
+- Identify idle or unused resources that still generate charges
+- Safely automate cost-
 
 # Phase 1: Cost Tracking & Alerts
 
